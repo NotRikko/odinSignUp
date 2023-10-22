@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enna Signup</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="java.js" defer></script>
+</head>
+<body>
+    <div class="mainContainer">
+        <div class="subContainer">
+            <div id="ennaBG">
+                <img src="./ennaPic.jpg" id="ennaPic">
+                <div id="logo">
+                    Enna's Birthday
+                </div>
+            </div>
+        </div>
+        <div class="subContainer2">
+            <div id="header">
+                This is not a real online service! Just a fun project related to Enna!
+            </div>
+            <div id="form">
+                <form>
+                    <fieldset>
+                        <legend>Became an Aloupeep!</legend>
+                        <div class="formSection">
+                            <div class="formPart">
+                                <label for="firstName">First Name</label>
+                                <input type="text" id="firstName" required>
+
+                                <label for="email">Email</label>
+                                <input type="email" id="email" required>
+
+
+                                <label for="password">Password</label>
+                                <input type="password" id="password" minlength="8" required>
+                            </div>
+                            <div class="formPart">
+                                <label for="lastName">Last Name</label>
+                                <input type="text" id="lastName" required>
+
+                                <label for="number">Phone Number</label>
+                                <input type="tel" id="number">
+
+                                <label for="confirmPassword">Confirm Password</label>
+                                <input type="password" id="confirmPassword" minlength="8" required>
+                            </div>
+                        </div>
+                    </fieldset>
+                </form>
+                
+            </div>
+            <div id="bottomForm">
+                <button type="submit">Submit</button>
+                <div id="alreadyAccount">
+                    Already have an account?
+                    <a href="">
+                        <span id= "alreadyLink">
+                            Log in
+                        </span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>
