@@ -19,3 +19,5 @@ confirmPassword.addEventListener("blur", () => {
     confirmPassword.style.border = "none";
     confirmPassword.style.borderBottom = "1px solid white";
 })
+
+
