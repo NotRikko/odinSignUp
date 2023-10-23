@@ -69,9 +69,10 @@ body {
 }
 
 form {
-    margin-left: 5%;
-    padding: 60px 20px;
+    margin-left: 10%;
+    margin-right: 5%;
     border: none;
+    box-sizing:border-box;
 }
 
 legend {
@@ -81,8 +82,9 @@ legend {
 }
 
 fieldset {
+    padding:0;
+    margin:0;
     border: none;
-    height: 30%;
 
 }
 
@@ -119,7 +121,6 @@ label {
 
 .formSection {
     display: flex;
-    align-items: center;
     gap: 10%;
 }
 
@@ -139,17 +140,22 @@ label {
 
 #bottomForm {
     box-sizing: border-box;
-    padding: 3%;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start;
     gap: 30px;
+}
+button,
+#alreadyAccount {
+    margin-left: 10%;
 }
 
 button {
-    margin-top: 10px;
-    width: 30%;
-    height: 20%;
+    margin-top: 30px;
+    width: 25%;
+    height: 25%;
+    max-width: 150px;
+    max-height: 50px;
     color: white;
     background-color: rgb(31,28,32);
     border:1px solid rgb(255, 255, 255);
