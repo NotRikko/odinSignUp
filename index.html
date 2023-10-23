@@ -37,7 +37,7 @@
                                 </div>
                                 <div class="inputLabel">
                                     <label for="password">Password</label>
-                                    <input type="password" id="password" minlength="8" required>
+                                    <input type="password" id="password" minlength="8" pattern="^(?=.*[A-Za-z])(?=.*\d)(?=.*[@$!%*#?&])[A-Zaa-z\d@$!%*#?&]{8,}$" required>
                                 </div>
                             </div>
                             <div class="formPart">
@@ -47,7 +47,7 @@
                                 </div>
                                 <div class="inputLabel">
                                     <label for="number">Phone Number</label>
-                                    <input type="tel" id="number">
+                                    <input type="tel" id="number" pattern="\(?\d{3}\)?-? *\d{3}=? *-?\d{4}">
                                 </div>
                                 <div class="inputLabel">
                                     <label for="confirmPassword">Confirm Password</label>
